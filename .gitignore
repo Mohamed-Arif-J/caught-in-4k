@@ -1,0 +1,65 @@
+# ============================================
+# Python & Environment
+# ============================================
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ============================================
+# Heavy AI Models & Weights Cache
+# ============================================
+hf_cache/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# ============================================
+# Node / Frontend Build Artifacts
+# ============================================
+client/node_modules/
+client/dist/
+client/.vite/
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# PyInstaller & Compiler Output
+# ============================================
+build/
+dist/
+*.spec
+*.exe
+CaughtIn4K.exe
+
+# ============================================
+# Operating System & IDE Artifacts
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# Environment Secrets & Temp Files
+# ============================================
+.env
+.env.local
+.env.*.local
+*.log
+temp/
+tmp/
